@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converter App</title>
+        <link rel="stylesheet" href="converterApp.css">
+    </head>
+    <body>
+
+
+        <div class="APP">
+            <p class="appName">CONVERTER APP</p>
+            <div class="box"><input id="measurement"></div>
+            <div>
+                <button class="cmButton" onclick="convertToCm()">Convert to cm</button>
+                <button class="inchButton" onclick="convertToInch()">Convert to inch</button>
+            </div>
+            <div class="resultTable"  id="resultTable">
+                <div class="result" id="result"></div>
+            </div>
+            <div class="clearButtonDiv">
+                <button class="clearButton" onclick="clearResults()">Clear</button>
+            </div>
+        </div>
+
+
+
+        <script src="converterApp.Js"></script>
+    </body>
+</html>
